@@ -1,0 +1,152 @@
+.breadcrumbArea{
+  margin-top: 50px;
+  }
+  
+.breadcrumbArea span{
+  color: #8e2626;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.productItem{
+  transition: .5s;
+  border: 3px solid #e96d3f; 
+  border-radius: 5px;
+  position: relative;
+  width: 90%;
+}
+
+.productItem:hover {
+  box-shadow: 0 0 30px #6d6c6c;
+}
+
+.imgAct{
+  transition: .5s;
+}
+
+.productItem:hover .imgAct{
+  overflow: hidden;
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.productAction {
+  background: rgba(256, 256, 256, .7);
+}
+
+.iconAInner{
+  font-size: 35px;
+  border: 1px solid #8e2626;
+  color: #8e2626;  
+  padding: 5px 6px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 19%;
+  transform: translateY(0);
+}
+
+.iconBInner{
+  font-size: 35px;
+  border: none;
+  color: #8e2626;
+  padding: 5px 6px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 44%;
+  transform: translateY(0);
+}
+
+.iconCInner{
+  font-size: 35px;
+  border: none;
+  color: #8e2626;
+  padding: 5px 6px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 69%;
+  transform: translateY(0);
+}
+
+.productItem:hover .iconAInner{
+  color: #8e2626;
+  border: 1px solid #8e2626;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 1;
+  top: 35%;
+  left: 19%;
+  transform: translateY(80%);
+  transition: transform 0.3s ease;
+}
+
+.productItem:hover .iconBInner{
+  color: #8e2626;
+  border: 1px solid #8e2626;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 1;
+  top: 35%;
+  left: 44%;
+  transform: translateY(80%);
+  transition: transform 0.5s ease;
+}
+
+.productItem:hover .iconCInner{
+  color: #8e2626;
+  border: 1px solid #8e2626;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 1;
+  top: 35%;
+  left: 69%;
+  transform: translateY(80%);
+  transition: transform 0.5s ease;
+}
+
+.productItem:hover .iconAInner:hover{
+  color: #e96d3f;
+  background-color: #8e2626;
+}
+
+.productItem:hover .iconBInner:hover{
+  color: #e96d3f;
+  background-color: #8e2626;
+}
+
+.productItem:hover .iconCInner:hover{
+  color: #e96d3f;
+  background-color: #8e2626;
+}
+
+.searchBtn{
+  background-color: #e96d3f;
+  color: white;
+  box-shadow: 0 0 10px gray;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.searchBtn:hover{
+  background-color: #8e2626 !important;
+}
+
+.conneBtn{
+  box-shadow: 0 0 10px gray;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 3px;
+  font-size: 18px;
+}
+
+.conneBtn:hover{
+  background-color: #8e2626!important;
+}
+
+

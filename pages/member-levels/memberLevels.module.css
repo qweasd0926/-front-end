@@ -1,0 +1,32 @@
+.breadcrumbArea{
+  margin-top: 50px;
+  }
+  
+.breadcrumbArea span{
+  color: #8e2626;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.bgword{
+  background-image: url('/bgword2.png');
+  background-position: center center;
+  background-size:contain;
+  
+}
+
+.sendBtn{
+  box-shadow: 0 0 10px gray;
+  text-decoration: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.sendBtn:hover{
+  background-color: #8e2626 !important;
+}
+
+.bgHover:hover{
+  box-shadow:  0 0 10px gray;
+}

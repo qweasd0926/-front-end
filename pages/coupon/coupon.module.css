@@ -1,0 +1,39 @@
+.breadcrumbArea{
+  margin-top: 50px;
+  }
+  
+.breadcrumbArea span{
+  color: #8e2626;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.banner{
+  object-fit: cover;
+  background-image: url('/couponbg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.pickBtn{
+  background-color: #e96d3f!important;
+  color: white !important;
+}
+
+.pickBtn:hover{
+  background-color: #8e2626 !important;
+}
+
+.pickedBtn{
+  background-color: lightgray !important;
+  color: white !important;
+}
+
+.photo{
+  transform:scale(0.9,0.9);
+  transition: all 0.5s ease-out;
+}
+
+.photo:hover{
+  transform:scale(1,1);
+}

@@ -1,0 +1,79 @@
+.breadcrumbArea{
+margin-top: 50px;
+}
+
+.breadcrumbArea span{
+  color: #8e2626;
+  font-weight: 900;
+}
+
+.titleArea{
+  content: "";
+  width: 77%;
+  border-top: 3px dashed #8e2626;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.backToTop {
+  padding: 5px 5px;
+  border-radius: 10px;
+  background-color: #e96d3f;
+  color: #8e2626;
+  position: fixed;
+  right: 30px;
+  bottom: 60px;
+  z-index: 11;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.checkBtn{
+  box-shadow: 0 0 10px gray;
+  text-decoration: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.checkBtn:hover{
+  background-color: #8e2626 !important;
+}
+
+.btnHover:hover{
+  box-shadow: 0 0 15px rgb(122, 120, 120);
+}
+
+.trashBtn:hover{
+  color: #e96d3f !important;
+}
+
+.complete:hover{
+  background-color: #8e2626 !important;
+}
+
+.evaluation:hover{
+  background-color: #387ab9 !important;
+}
+
+
