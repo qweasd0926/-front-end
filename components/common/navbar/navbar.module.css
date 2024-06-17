@@ -1,0 +1,133 @@
+.row{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background-color: #f6f4f4;
+}
+
+.rowA{
+  margin: 0 10px 0 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.textBody{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 2px;
+  padding: 2px 2px;
+}
+
+.textBody:hover{
+  border-radius: 15px;
+  background-color: rgba(186, 185, 185, 0.568);
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  -webkit-animation: logoMove 1s infinite alternate;
+  animation: logoMove 1s infinite alternate;
+}
+
+@-webkit-keyframes logoMove {
+0% {
+  transform: translateX(-5px);
+}
+
+100% {
+  transform: translateX(5px);
+}
+}
+
+@keyframes logoMove {
+0% {
+  transform: translateX(-5px);
+}
+
+100% {
+  transform: translateX(5px);
+}
+}
+
+.inputSearch:hover{
+  background-color: #8e2626 !important;
+  box-shadow: 0 0 10px gray;
+}
+
+.fs20{
+  font-size: 20px;
+}
+
+.ml5{
+  margin-left: 5px;
+}
+
+.mr2{
+  margin-right: 2px;
+}
+
+.randomSearch{
+  border: 3px dotted #8e2626;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+
+.searchBtn{
+  box-shadow: 0 0 10px gray;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+  -webkit-animation: btnMove 0.1s infinite alternate;
+  animation: btnMove 0.3s infinite alternate;
+}
+
+.searchBtn:hover{
+  background-color: #8e2626 !important;
+}
+
+@-webkit-keyframes btnMove {
+  0% {
+    transform: translateY(-1px);
+  }
+  
+  100% {
+    transform: translateY(1px);
+  }
+  }
+  
+  @keyframes btnMove {
+  0% {
+    transform: translateY(-1px);
+  }
+  
+  100% {
+    transform: translateY(1px);
+  }
+  }
+
+  .itemClick{
+    color: #8e2626 !important;
+  }
+
+  .itemClick:active{
+    color: #e96d3f !important;
+  } 
+
+  .itemClick:active:hover{
+    background-color: #f6f4f4;
+  }
+
+  
+
+  
+
+
+
+
+
+
+
