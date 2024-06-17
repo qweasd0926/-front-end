@@ -1,0 +1,252 @@
+/* 
+.body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+} */
+/*左邊的內容*/
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%; /* 将手风琴容器的宽度调整为页面的 30% */
+  padding: 10px; /* 添加一些内边距，使内容看起来更整洁 */
+  overflow-y: auto; /* 如果手风琴内容过多，可以添加滚动条 */
+}
+.accordion-body {
+  margin-left: 45px;
+  margin-top: 10px;
+  color: rgb(233, 109, 63);
+}
+.accordion-title {
+  margin-top: 2px; /* 调整标题上方的间距 */
+  color: #8e2626;
+}
+.accordion-item {
+  border: none; /* 移除手风琴项的边框线 */
+  background-color: transparent; /* 将手风琴项的背景色设置为透明 */
+  margin-bottom: 30px; /* 设置手风琴项的下外边距为 30px */
+}
+
+.accordion-header {
+  color: rgb(185, 180, 180); /* 根据需要选择颜色 */
+  margin-bottom: 5px; /* 设置标题元素的下外边距为 5px */
+  font-size: 20px; /* 设置标题元素的字体大小为 20px */
+}
+.icon-wrapper {
+  margin:0 5px 0 5px; 
+}
+.container {
+  display: flex;
+  height: 100%; /* 100% 的视口高度 */
+  
+}
+
+.containerHome {
+    max-width: 1500px;
+    padding: 20px;
+}
+.containerPage {
+    width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.localClass th, .localClass td {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+.collapsible-text {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+/* 右邊內容的CSS */
+.Row {
+  padding: 10px;
+  margin: 0; /* 将外边距设为 0 */
+  display: flex;
+  flex-direction: row;
+  text-align: left; /* 靠左对齐 */
+}
+
+.Row2 {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: left; /* 靠左對齊 */
+
+}
+.Col {
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: color 0.3s, text-decoration 0.3s;
+
+}
+/* 滑鼠移過時的樣式 */
+.Col:Hover {
+  color:#8e2626;
+  text-decoration: underline; /* 加上下底線 */
+  font-weight: bold;
+}
+/* 點擊時的樣式 */
+.Col:Active {
+  color: rgb(233, 109, 63); /* 變為橘色 */
+  text-decoration: underline; /* 加上下底線 */
+  font-weight: bold;
+}
+
+
+  /*按鈕*/
+.buttonGroup {
+    position: relative;
+    margin-top: 20px;
+}
+
+.searchButton2,
+.searchButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.searchButton2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.searchButton {
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* 在 return.module.css 中添加以下媒体查询 */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .table-row {
+      display: block;
+    }
+  
+    .table-row > th,
+    .table-row > td {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; /* 添加间距 */
+    }
+  
+    .form-control {
+      width: 100%;
+    }
+  
+    .form-select {
+      width: 100%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .table-row {
+      display: flex;
+      align-items: center;
+    }
+  
+    .table-row > th,
+    .table-row > td {
+      display: table-cell;
+      width: auto;
+      margin-bottom: 0; /* 移除额外间距 */
+    }
+  
+    .form-control {
+      width: auto;
+    }
+  
+    .form-select {
+      width: auto;
+    }
+  }
+
+  /*按鈕*/
+.buttonGroup {
+  position: relative;
+}
+
+.searchButton2{
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: rgb(233, 109, 63);
+  color: #fff;
+}
+.searchButton {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 建立匡線 */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+
+  /* 瑞瑜的 */
+  .banner {
+    background: linear-gradient(115deg, rgba(197, 106, 15, 0.915) 75%, transparent 50%) center center / 100% 100%,
+      url("/helpCenter.png") right center / auto 100%;
+    border-top: 3px solid #4a4a4a;
+    border-bottom: 3px solid #4a4a4a;
+  }
+  
+  .area1 {
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  
+  .breadcrumbArea{
+    margin-top: 50px;
+    }
+    
+  .breadcrumbArea span{
+    color: #8e2626;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .card:hover{
+    box-shadow: 0 0 30px gray;
+  }

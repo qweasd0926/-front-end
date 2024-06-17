@@ -1,0 +1,579 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.error{
+  color: red;
+  height: 10px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+.listGroupItem {
+  height: 57px;
+  padding: 0 !important;
+  cursor: pointer !important;
+  border: none !important;
+  border-bottom: 1px solid #dee2e6 !important;
+
+  &:hover {
+    background-color: #c7def5; // 你可以根據需要更改這個值
+  }
+}
+
+.myloginform {
+  width: 500px;
+  background-color: $form-bg;
+  border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  h2 {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: $dark;
+  }
+
+  button {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+  .error{
+    color: red;
+    height: 10px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 6px;
+  }
+}
+
+.myLoginModal{
+  h3 {
+    position: relative;
+    top: 12px;
+    padding-top: 10px;
+    color: $dark;
+    padding-left: 5px;
+  }
+
+  .btnclose{
+    padding-top: 13px;
+    position: relative;
+    top:-20px
+    }
+
+    .body{
+      position: relative;
+      top: -5px;
+      padding: 0px 26px 2px 23px;
+    }
+
+    .attr{
+      font-weight: 500;
+      font-size: 16px;
+
+    }
+
+    .loginbtn{
+      margin-top: 6px;
+      background: $primary;
+      color: $light;
+  
+      &:hover {
+        background: $dark;
+        color: $light;
+      }
+    }
+
+    p{font-size: 19px;}
+
+    .error {
+      color: red !important;
+      font-size: 16px;
+      height: 12px;
+      position: relative;
+      top:10px;
+      margin-left: 5px;
+    }
+}
+
+.profilesStyle{
+
+  a {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  background-color:	#ffffff; 
+  .probtn{
+    height: 40px;
+    border: 1px solid $secondary;
+    border-radius: 0.3rem;
+    background-color: $primary;
+    color: #ffffff;
+    font-weight: 600;
+    &:hover{
+      background-color: $dark;
+      color: #ffffff !important;
+    }
+  }
+
+  .libtn{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #FFF;
+    
+  &:hover {
+    background-color: #c7def5; // 你可以根據需要更改這個值
+  }
+  }
+
+  .photobtn{
+    height: 40px;
+    border: 1px solid $secondary;
+    border-radius: 0.3rem;
+    background: rgb(126, 186, 234) !important;
+    color: #ffffff;
+    font-weight: 600;
+    &:hover{
+      background-color: $dark !important;
+      color: #ffffff !important;
+    }
+  }
+
+  .card{
+    border: 1px solid $dark;
+    box-shadow: 8px 8px 0 0 rgb(255, 220, 220);
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .title{
+      font-size: 2rem;
+      font-weight: 600;
+      color: $dark;
+      margin: 14px 0px 30px 0px;
+      text-align: center;
+    }
+  } 
+}
+
+.storeInfo{
+  margin: 0 auto;
+  background-color: #FFF !important;
+  a {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  background-color:	#F0F0F0; 
+  button{
+    height: 40px;
+    border: 1px solid $secondary;
+    border-radius: 0.3rem;
+    background-color: $primary;
+    color: #ffffff;
+    font-weight: 600;
+    &:hover{
+      background-color: $dark;
+      color: #ffffff !important;
+    }
+  }
+
+  .infoCard{
+    min-height: 960px;
+    border: 1px solid $dark;
+    box-shadow: 8px 8px 0 0 rgb(255, 220, 220);
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .title{
+      font-size: 2rem;
+      font-weight: 600;
+      color: $dark;
+      text-align: center;
+    }
+  }
+   
+  .productsCard{
+    min-height: 960px;
+    border: 1px solid $dark;
+    box-shadow: 8px 8px 0 0 rgb(255, 220, 220);
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .title{
+      font-size: 2rem;
+      font-weight: 600;
+      color: $dark;
+      text-align: center;
+    }
+  }
+
+  .iconWithMargin{
+    margin-right: 4px;
+  }
+
+  .btnLike{
+  background-color: #cbcbcb;
+  color: red;
+    &:hover{
+      color: $primary;
+    }
+  }
+  .textBlack{
+    color: rgb(33, 32, 32);
+  }
+}
+
+
+.registerForm{
+  width: 500px;
+  background-color: $form-bg;
+  border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  h2 {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: $dark;
+  }
+
+  button {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.registerModal{
+  // width: 500px;
+  // background-color: $form-bg;
+  // border: 2px solid $dark;
+  // border-radius: $border-radius-sm;
+  .body{
+    position: relative;
+    top: -15px;
+  }
+  
+  h3 {
+    position: relative;
+    top: 12px;
+    padding-top: 10px;
+    color: $dark;
+    padding-left: 8px;
+  }
+
+  .resbtn {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+
+  .btnclose{
+  padding-top: 13px;
+  position: relative;
+  top:-20px
+  }
+
+  .error{
+    color: red;
+    font-size: 16px;
+    height: 10px;
+    position: relative;
+    top:6px;
+  }
+}
+
+.updateModal{
+  width: 446px;
+  background-color: $form-bg;
+  // border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  h3 {
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: $dark;
+  }
+
+  button {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.messageBox{
+  width: 95%;
+  height: 630px;
+  margin: 0px auto;
+  background-color: $form-bg;
+  border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  h2 {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: $dark;
+  }
+
+  button {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.forgetForm{
+  width: 550px;
+  background-color: $form-bg;
+  border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  h3 {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: $dark;
+  }
+
+  button {
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.googleFillModal{
+  width: 445px;
+  background-color: $form-bg;
+  border: 2px solid $dark;
+  border-radius: $border-radius-sm;
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.logoutButton{
+  button{
+    padding: 7px 13px;
+    background: $primary;
+    color: $light;
+    border: none ;
+  border-radius: 0.3rem;
+    &:hover {
+      background: $dark;
+      color: $light;
+    }
+  }
+}
+
+.googleLoginButton{
+    padding: 3px 8px 2px 3px;
+    background: rgb(126, 186, 234) !important;
+    color: $light;
+    border: none ;
+  border-radius: 0.3rem;
+    &:hover {
+      background: $dark !important;
+      color: $light;
+    }
+}
+
+.chat__footer{
+  padding: 10px;
+  background-color: #f9f5eb;
+  height: 10vh;
+  .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 15px;
+  }
+
+  .sendBtn {
+    width: 110px;
+    background-color:$primary;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: #eae3d2;
+    cursor: pointer;
+    &:hover {
+      background-color: $dark;
+    }
+  }
+}
+
+.chat__mainHeader {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $dark;
+  .leaveChat__btn {
+    padding: 9px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    background-color: rgb(126, 186, 234);
+    cursor: pointer;
+    color: #eae3d2;
+    &:hover {
+      background-color: $dark;
+    }
+  }
+}
+
+.message__container > * {
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.message__container{
+  height: 80vh;
+  overflow: auto;
+  display: block;
+  background-color:rgb(202, 234, 255);
+}
+
+.message__chats {
+  > p {
+    font-size: 13px;
+  }
+
+  .sender__name {
+    text-align: right;
+  }
+
+  .message__sender {
+    background-color: rgb(194, 243, 194);
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    font-size: 15px;
+  }
+}
+
+.message__recipient {
+  background-color: #f5ccc2;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.message__status {
+  position: fixed;
+  bottom: 50px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.chat__sidebar {
+  height: 100%;
+  background-color: #f9f5eb;
+  flex: 0.15;
+  padding: 10px;
+  border-right: 1px solid #fdfdfd;
+  .chat__header {
+    margin: 30px 0 20px 0;
+  }
+  .chat__users > * {
+    margin-bottom: 10px;
+    color: #607eaa;
+    font-size: 14px;
+  }
+}
+
+.chat {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.chat__main {
+  margin: 0 auto;
+  height: 100%;
+  flex: 1;
+  border: 2px solid #b0b0b0;
+}
+
+.storeProducts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cardHoverEffect {
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 255, 0.2), 0 10px 25px 0 rgba(24, 178, 255, 0.25);
+  }
+}

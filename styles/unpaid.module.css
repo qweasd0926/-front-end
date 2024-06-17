@@ -1,0 +1,279 @@
+/*左邊的內容*/
+    .accordion-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 15%; /* 将手风琴容器的宽度调整为页面的 30% */
+        padding: 10px; /* 添加一些内边距，使内容看起来更整洁 */
+        overflow-y: auto; /* 如果手风琴内容过多，可以添加滚动条 */
+    }
+    .accordion-body {
+        margin-left: 45px;
+        margin-top: 10px;
+        color: rgb(233, 109, 63);
+      }
+      .accordion-title {
+        margin-top: 2px; /* 调整标题上方的间距 */
+        color: #8e2626;
+      }
+      .accordion-item {
+        border: none; /* 移除手风琴项的边框线 */
+        background-color: transparent; /* 将手风琴项的背景色设置为透明 */
+        margin-bottom: 30px; /* 设置手风琴项的下外边距为 30px */
+      }
+      
+      .accordion-header {
+        color: rgb(185, 180, 180); /* 根据需要选择颜色 */
+        margin-bottom: 5px; /* 设置标题元素的下外边距为 5px */
+        font-size: 20px; /* 设置标题元素的字体大小为 20px */
+      }
+      .icon-wrapper {
+        margin:0 5px 0 5px; 
+      }
+
+     .container {
+        display: flex;
+        height: 100%; /* 100% 的视口高度 */
+        
+      }
+      .containerPage {
+        flex: 1; 
+        max-width: 1200px;
+        margin: 0px 20px 50px 20px;
+        padding: 0px 0px 20px;
+        background-color: rgba(255, 255, 255, .10);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0.5, 0.5, 0.5, 0.5);
+    }
+     .content-container {
+        flex: 1; /* 右侧内容容器会占据剩余的空间 */
+        padding: 20px; /* 添加一些内边距，使内容看起来更整洁 */
+      }
+      .rightContent{
+         flex: 1;
+         padding: 20px;
+  }
+  .alignTop {
+    align-items: flex-start;
+  }
+  
+/*按鈕*/
+.buttonGroup {
+    position: relative;
+}
+
+.searchButton2{
+    padding: 5px 20px;
+    border-radius: 5px;
+
+    margin-left: 30px;
+    background-color: rgb(233, 109, 63);
+    color: #fff;
+}
+.searchButton {
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.Sidebar {
+    width: 250px; /* 調整側邊欄的寬度 */
+    padding: 20px;
+}
+.AccordionContent {
+    flex: 1;
+    padding: 20px;
+}
+/* 右邊內容的CSS */
+.Row {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0; /* 将外边距设为 0 */
+    display: flex;
+    flex-direction: row;
+    text-align: left; /* 靠左对齐 */
+    background-color: rgb(233, 109, 63);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.Row2 {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: left; /* 靠左對齊 */
+    background-color: #fff;
+}
+.Col {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+    color: rgba(255, 255, 255, .5);
+    font-weight: bold;
+}
+/* 滑鼠移過時的樣式 */
+.Col:Hover {
+    color:#8e2626;
+    text-decoration: underline; /* 加上下底線 */
+    font-weight: bold;
+}
+/* 點擊時的樣式 */
+.Col:Active {
+    color: rgb(233, 109, 63); /* 變為橘色 */
+    text-decoration: underline; /* 加上下底線 */
+    font-weight: bold;
+}
+/*搜尋*/
+/* 樣式設定 */
+.SearchContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.SearchBox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+}
+
+.SearchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* 新增的下拉式選單樣式 */
+.SelectBox {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.Select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SelectSelect {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* 新增的搜尋框樣式 */
+.SearchInputSmall {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+}
+/*按鈕*/
+.SearchButton {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.SearchButton2 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* 添加间距 */
+}
+
+/* 訂單日期 */
+#DateRangeContainer {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+#DateRange {
+    margin-left: 10px; /* 添加间距 */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.FormControl{
+    width: 100%;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+
+/* 瑞瑜的 */
+.banner {
+    background: linear-gradient(115deg, rgba(197, 106, 15, 0.915) 75%, transparent 50%) center center / 100% 100%,
+      url("/helpCenter.png") right center / auto 100%;
+    border-top: 3px solid #4a4a4a;
+    border-bottom: 3px solid #4a4a4a;
+  }
+  
+  .area1 {
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  
+  .breadcrumbArea{
+    margin-top: 50px;
+    }
+    
+  .breadcrumbArea span{
+    color: #8e2626;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .card:hover{
+    box-shadow: 0 0 30px gray;
+  }
+  
+  

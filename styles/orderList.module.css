@@ -1,0 +1,96 @@
+.navStyle {
+  background: url(/bg-9.png);
+  color: #b2a59b;
+  display: flex;justify-content: center;
+}
+
+.sec1 {
+  width: 100%;
+  background-color: white;
+  height: 50%;
+}
+.sec1Seller {
+  height: 15%;
+  border-bottom: 3px solid #f5e8dd;
+}
+.productLine {
+  height: 35%;
+  border-bottom: 3px solid #f5e8dd;
+}
+.sec1Img {
+  display: inline-block;
+  height: 100%;
+}
+.sec1End {
+  height: 35%;
+  padding: 30px 0;
+}
+
+/* ----Nav */
+
+
+.navbarOrder {
+  width: 100%;
+}
+.navbarOrder ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+  background-color: #FEC7B4;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbarOrder a {
+  color: grey;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbarOrder a:hover {
+  background-color: #efbc9b;
+}
+.navbarOrder li {
+  width: 100%;
+  float: left;
+  border-left:1px solid #E5DDC5;
+  border-right: 1px solid #E5DDC5;
+}
+.navbarOrder label {
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.navbarOrder input {
+  display: none;
+}
+@media (max-width: 600px) {
+  .navbarOrder label {
+    display: block;
+  }
+  .navbarOrder ul {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    /* left: -100%; */
+    text-align: center;
+    transform: all 0.5s;
+  }
+  .navbarOrder li {
+    display: block;
+  }
+  .navbarOrder a:hover {
+    background-color: #efbc9b;
+  }
+  .navbarOrder label:ctive ~ ul {
+    display: block;
+  }
+
+}
+

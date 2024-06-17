@@ -1,0 +1,142 @@
+.checkout{
+  margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 10px;
+  
+}
+
+.bg:hover{
+  box-shadow: 0 0 10px gray;
+}
+
+/* .checkout button{
+  position: relative;
+  min-width: 30px;
+  background: transparent;
+  color: #E1332D;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: inherit;
+  padding: 10px 20px;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(225, 51, 45, 0);
+  outline: 1px solid !important;
+  outline-color: rgba(225, 51, 45, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} */
+.checkoutBtn{
+  background: transparent !important;
+  color: #E1332D !important;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: inherit;
+  padding: 10px 20px;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(225, 51, 45, 0);
+  outline: 1px solid !important;
+  outline-color: rgba(225, 51, 45, 0.5) !important;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+ .checkoutBtn:hover{
+  background-color: #E1332D !important;
+   color: white!important;
+   border: none;
+ } 
+
+.orderList{
+  margin: 10px;
+}
+.orderList button{
+  position: relative;
+  min-width: 100px;
+  background: transparent;
+  color: #E1332D;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: inherit;
+  padding: 10px 20px;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(225, 51, 45, 0);
+  outline: 1px solid !important;
+  outline-color: rgba(225, 51, 45, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn{
+  position: relative;
+  min-width: 100px;
+  background: transparent;
+  color: #E1332D;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: inherit;
+  padding: 10px 20px;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(225, 51, 45, 0);
+  outline: 1px solid !important;
+  outline-color: hsla(2, 75%, 53%, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1) !important;
+}
+.btn:hover{
+  color: white !important;
+}
+
+.bargain {margin: 10px;}
+.bargain button{
+  background-color: #FF9800;
+  color: white;
+  margin-left: 10px;
+}
+.bargain button:hover{
+  background-color: #9B3922;
+  color: white;
+  margin-left: 10px;
+}
+.bargainBtn{
+  background-color: #FF9800 !important;
+  color: white!important;
+}
+.bargainBtn:hover{
+  background-color: #9B3922 !important;
+  color: white!important;
+}
+.bargainNotBtn{
+  background-color: #FAEFFA !important;
+  color: #2F0F2F!important;
+  border: solid #2F0F2F 1px !important;
+}
+.bargainNotBtn:hover{
+  background-color: #E2A2E2 !important;
+  color: white!important;
+  border: solid #2F0F2F 1px !important;
+}
+
+.imgBox:hover{
+  box-shadow: 0 0 10px #2F0F2F;
+  transition: transform 0.5s;
+}
+
+.sellerLink:hover{
+  color: #e96d3f !important;
+  font-weight: blod;
+}
+
+.linepayBtn:hover{
+  background-color: #1e6e3a !important;
+}
